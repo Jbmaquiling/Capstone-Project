@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylesmain.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">James lee.
+            <span class="animate" style="--i:1;"></span>
+        </a>
+
+        <div class="bx bx-menu" id="menu-icon">
+            <span class="animate" style="--i:2;"></span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#anime">Anime List</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>James Lee</span></h1>
+            <div class="text-animate">
+                <h3>BS - Info.Technology</h3>
+            </div>
+            <p>Hi! I'm beginner about coding and love exploring new technologies. In my free time, you can find me playing online games or honing my drawing skills. I enjoy the creativity involved in both coding and art, as they allow me to express myself and connect with others.</p>
+
+            <div class="btn-box">
+                <a href="#about" class="btn">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-imgHover"></div>
+    </section>
+
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="main1.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Call Of Duty Mobile! and Drawing</h3>
+            <p>As I sat down with my sketchbook, the images of soldiers and explosions from my gaming sessions filled my mind, each stroke of the pencil translating the adrenaline into art. My drawings began to take shape, capturing the chaos and intensity of the battlefield, allowing me to express my creativity while immersing myself in the world of imagination.
+
+            After a thrilling round of Call of Duty Mobile, where every second felt like a high-stakes mission, I found a new way to relive those moments. The blend of strategy and skill in the game fueled my artistic inspiration, proving that whether I’m in a virtual warzone or sketching, the excitement never truly fades.</p>
+
+            <div class="btn-box btns">
+                <a href="#anime" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="anime" id="anime">
+        <h2 class="heading">My <span>Anime List</span></h2>
+    
+        <div class="anime-row">
+            <div class="anime-column">
+                <h3 class="title">Anime List</h3>
+    
+                <div class="anime-box">
+                    <div class="anime-content">
+                        <img class="anime-image" src="anime-img1.jpg" alt="Anime 1">
+                        <div class="content">
+                            <div class="year"> <i class="bx bxs-calendar"></i> 2021</div>
+                            <h3>Major</h3>
+                            <p>The story follows the life of Goro Honda. From childhood to adulthood, he aims to be the best professional baseball player, seeking and challenging tremendous adversities.</p>
+                        </div>
+                    </div>
+    
+                    <div class="anime-content">
+                        <img class="anime-image" src="anime-img2.jpeg" alt="Anime 2">
+                        <div class="content">
+                            <div class="year"> <i class="bx bxs-calendar"></i> 2012</div>
+                            <h3>Sword Art Online</h3>
+                            <p>A huge castle made of stone and steel floating in an endless sky. That was all this world was. Above, there were 100 floors stacking straight upwards; its sheer size was unbelievable.</p>
+                        </div>
+                    </div>
+    
+                    <div class="anime-content">
+                        <img class="anime-image" src="anime-img3.jpeg" alt="Anime 3">
+                        <div class="content">
+                            <div class="year"> <i class="bx bxs-calendar"></i> 2020</div>
+                            <h3>Solo Leveling</h3>
+                            <p>In a world where hunters, human warriors who possess magical abilities, must battle deadly monsters to protect mankind from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Communicating <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Listening <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Drawing <span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Online Games <span>30%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://formspree.io/f/manywopd" method="post">
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" name="Reply To" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" name="Phone" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" name="Subject" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Thank You!</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="jsmain.js"></script>
+</body>
+</html>
